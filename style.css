@@ -513,6 +513,13 @@ nav > div > div:nth-child(2) > button:active {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
+}
+.section_5 > div > div:nth-child(2) > button:hover {
+  background: rgb(206, 206, 206);
+}
+.section_5 > div > div:nth-child(2) > :active:hover {
+  background: rgb(172, 163, 163);
 }
 .section_5 > div > div:nth-child(2) > input {
   padding: 19px 20px 19px 20px;
