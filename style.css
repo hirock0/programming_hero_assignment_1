@@ -19,21 +19,19 @@ body {
   font-optical-sizing: auto;
 }
 /* nav_section_start */
-nav{
+nav {
   height: 120px;
   display: flex;
   align-items: center;
 }
-nav>div {
+nav > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 80px 97px 80px 97px;
-
-  
 }
-nav>div>div:nth-child(1)>h1{
+nav > div > div:nth-child(1) > h1 {
   color: rgb(13, 19, 33);
   font-size: 25px;
   font-weight: 800;
@@ -41,12 +39,17 @@ nav>div>div:nth-child(1)>h1{
   letter-spacing: 0%;
   text-align: left;
 }
-nav>div>div:nth-child(2)>button{
+nav > div > div:nth-child(2) > button {
   padding: 17px 24px 17px 24px;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
-
+}
+nav > div > div:nth-child(2) > button:hover {
+  background-color: bisque;
+}
+nav > div > div:nth-child(2) > button:active {
+  background-color: rgb(122, 107, 87);
 }
 /* nav_section_end */
 /* ======================================================= */
@@ -384,6 +387,74 @@ nav>div>div:nth-child(2)>button{
 /* =============================================================== */
 
 /* section_4_start */
+.section_4 {
+  margin-top: 52px;
+}
+.section_4 > div > div:nth-child(1) {
+  width: 852px;
+  margin: 0 auto;
+}
+.section_4 > div > div:nth-child(1) > h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+.section_4 > div > div:nth-child(1) > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.nextBox {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: white;
+  margin: 0px 24px;
+  padding: 40px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TextBox > h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 8px 0px;
+}
+.TextBox > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin: 8px 0px;
+}
+.TextBox > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 24px 0px;
+}
 
 /* section_4_end */
 /* =========================================================== */
