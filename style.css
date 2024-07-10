@@ -18,11 +18,38 @@ body {
   font-family: sans-serif;
   font-optical-sizing: auto;
 }
-
-.nav {
-  height: 131px;
-  background-color: red;
+/* nav_section_start */
+nav{
+  height: 120px;
+  display: flex;
+  align-items: center;
 }
+nav>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 80px 97px 80px 97px;
+
+  
+}
+nav>div>div:nth-child(1)>h1{
+  color: rgb(13, 19, 33);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav>div>div:nth-child(2)>button{
+  padding: 17px 24px 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+
+}
+/* nav_section_end */
+/* ======================================================= */
 /* hero_banner_start */
 .Hero_banner {
   height: 652px;
@@ -354,78 +381,96 @@ body {
 /* section_3_below_end */
 
 /* section_3_end */
-  /* =============================================================== */
+/* =============================================================== */
 
 /* section_4_start */
-
-
 
 /* section_4_end */
 /* =========================================================== */
 /* section_5_start */
-  .section_5{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("./assets/handshake.jpg");
-    height: 315px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    margin-top: 52px;
-    border-radius: 16px;
-    overflow: hidden;
-  }
-  .section_5>div{
-    padding: 64px 48px 64px 48px;
-
-  }
-  .section_5>div>div:nth-child(1){
-    width: 730px;
-    margin: 0 auto;
-    color: white;
-   
-  }
-  .section_5>div>div:nth-child(1)>h1{
-    text-align: center;
-  }
-  .section_5>div>div:nth-child(1)>p{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    opacity: 0.7;
-    margin-top: 16px;
-
-  }
-  .section_5>div>div:nth-child(2){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 52px;
-
-
-  }
-  .section_5>div>div:nth-child(2)>button{
-    border: none;
-    background: white;
-    padding: 17px 20px 17px 20px;
-    margin: 0px 16px;
-    border-radius: 8px;
-    color: rgb(13, 19, 33);
-    font-size: 19px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .section_5>div>div:nth-child(2)>input{
-    padding: 19px 20px 19px 20px;
-    width: 548px;
-    border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 8px;
-    outline: none;
-    font-size: 16px;
-  }
+.section_5 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./assets/handshake.jpg");
+  height: 315px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  margin-top: 52px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.section_5 > div {
+  padding: 64px 48px 64px 48px;
+}
+.section_5 > div > div:nth-child(1) {
+  width: 730px;
+  margin: 0 auto;
+  color: white;
+}
+.section_5 > div > div:nth-child(1) > h1 {
+  text-align: center;
+}
+.section_5 > div > div:nth-child(1) > p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.section_5 > div > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 52px;
+}
+.section_5 > div > div:nth-child(2) > button {
+  border: none;
+  background: white;
+  padding: 17px 20px 17px 20px;
+  margin: 0px 16px;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.section_5 > div > div:nth-child(2) > input {
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
 /* section_5_end */
 /* ============================================================================== */
 /* Footer_section_start */
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 80px 97px 80px 97px;
+}
+footer > div > div:nth-child(1) > h1 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+footer > div > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* Footer_section_end */
